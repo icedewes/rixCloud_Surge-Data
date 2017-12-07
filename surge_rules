@@ -6,6 +6,15 @@ DOMAIN-SUFFIX,icloud.com,DIRECT
 DOMAIN-SUFFIX,itunes.com,DIRECT
 DOMAIN-SUFFIX,mzstatic.com,DIRECT
 DOMAIN-SUFFIX,icloud-content.com,DIRECT
+# JD
+DOMAIN,bdsp.x.jd.com,REJECT
+DOMAIN,im-x.jd.com,REJECT
+DOMAIN,jzt.jd.com,REJECT
+DOMAIN,kepler.jd.com,REJECT
+DOMAIN,keplerapi.jd.com,REJECT
+DOMAIN,stat.m.jd.com,REJECT
+DOMAIN,x.jd.com,REJECT
+DOMAIN-SUFFIX,jd.com,DIRECT
 # Netflix
 DOMAIN-SUFFIX,netflix.com,rixCloud
 DOMAIN-SUFFIX,netflix.net,rixCloud
@@ -1225,7 +1234,6 @@ DOMAIN-SUFFIX,icon.55bbs.com,DIRECT
 DOMAIN,iface2.iqiyi.com,DIRECT
 DOMAIN-SUFFIX,iqshw.com,DIRECT
 DOMAIN-SUFFIX,ipip.net,DIRECT
-DOMAIN,jd.com,DIRECT
 DOMAIN-SUFFIX,jiathis.com,DIRECT
 DOMAIN-SUFFIX,jianshu.com,DIRECT
 DOMAIN-SUFFIX,jianshu.io,DIRECT
@@ -1464,7 +1472,6 @@ DOMAIN-SUFFIX,bdj.tianya.cn,REJECT
 DOMAIN-SUFFIX,beacon.sina.com.cn,REJECT
 DOMAIN-SUFFIX,baidustatic.com,REJECT
 DOMAIN-SUFFIX,baifendian.com,REJECT
-DOMAIN,bdsp.x.jd.com,REJECT
 DOMAIN-SUFFIX,boss.qzone.qq.com,REJECT
 DOMAIN-SUFFIX,bossbj.com,REJECT
 DOMAIN-SUFFIX,bricknet.com,REJECT
@@ -1658,7 +1665,6 @@ DOMAIN-SUFFIX,img.twcczhu.com,REJECT
 DOMAIN-SUFFIX,impact.applifier.com,REJECT
 DOMAIN-SUFFIX,inmobi.com,REJECT
 DOMAIN-SUFFIX,iwencai.com,REJECT
-DOMAIN,im-x.jd.com,REJECT
 DOMAIN-SUFFIX,immob.cn,REJECT
 DOMAIN-SUFFIX,ipinyou.com,REJECT
 DOMAIN-SUFFIX,intely.cn,REJECT
@@ -1701,7 +1707,6 @@ DOMAIN,ichannel.snssdk.com,REJECT
 DOMAIN-SUFFIX,ingameads.gameloft.com,REJECT
 DOMAIN-SUFFIX,img.fd7c.com,REJECT
 DOMAIN-SUFFIX,inmobicdn.net,REJECT
-DOMAIN,jzt.jd.com,REJECT
 DOMAIN-SUFFIX,j.pcpop.com,REJECT
 DOMAIN-SUFFIX,jiaoyueba.com,REJECT
 DOMAIN,js-agent.newrelic.com,REJECT
@@ -1726,8 +1731,6 @@ DOMAIN-SUFFIX,kxwan.com,REJECT
 DOMAIN-SUFFIX,kdatacenter.com,REJECT
 DOMAIN,keytui.com,REJECT
 DOMAIN-SUFFIX,ktplay.cn,REJECT
-DOMAIN,kepler.jd.com,REJECT
-DOMAIN,keplerapi.jd.com,REJECT
 DOMAIN-SUFFIX,kukuplay.com,REJECT
 DOMAIN-SUFFIX,kxbeta.com,REJECT
 DOMAIN-SUFFIX,kuangtech.com,REJECT
@@ -1837,7 +1840,6 @@ DOMAIN,paopao.iqiyi.com,REJECT
 DOMAIN-SUFFIX,pro.cn,REJECT
 DOMAIN,pingma.qq.com,REJECT
 DOMAIN-SUFFIX,p0y.cn,REJECT
-DOMAIN,policy.jd.cm,REJECT
 DOMAIN-SUFFIX,pcookie.mlt01.com,REJECT
 DOMAIN-SUFFIX,profile.ams50.cloudfront.net,REJECT
 DOMAIN-SUFFIX,quote.tool.hexun.com,REJECT
@@ -1887,7 +1889,6 @@ DOMAIN-SUFFIX,ssp-ces.gameloft.com,REJECT
 DOMAIN-SUFFIX,show.58dtpf.com,REJECT
 DOMAIN-SUFFIX,sohu.wrating.com,REJECT
 DOMAIN-SUFFIX,show.pipi7788.com,REJECT
-DOMAIN,stat.m.jd.com,REJECT
 DOMAIN-SUFFIX,statics.motu.pagechoice.net,REJECT
 DOMAIN-SUFFIX,so.hexun.com,REJECT
 DOMAIN-SUFFIX,s.cr-nielsen.com,REJECT
@@ -1979,7 +1980,6 @@ DOMAIN-SUFFIX,xiaoyunwifi.cn,REJECT
 DOMAIN-SUFFIX,xihuan8.cn,REJECT
 DOMAIN-SUFFIX,xihuanba.cn,REJECT
 DOMAIN,xiuxiu.mobile.meitudata.com,REJECT
-DOMAIN,x.jd.com,REJECT
 DOMAIN-SUFFIX,youmi.net,REJECT
 DOMAIN-SUFFIX,yes1.feng.com,REJECT
 DOMAIN-SUFFIX,yieldmo.com,REJECT
