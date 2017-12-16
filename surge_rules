@@ -2132,7 +2132,7 @@ FINAL,rixCloud
 [Host]
 ip6-localhost = ::1
 ip6-loopback = ::1
-rixcloud.com = 104.16.113.208
-www.rixcloud.com = 104.16.111.208
+rixcloud.com = 104.16.58.5
+www.rixcloud.com = 104.16.58.5
+docs.rixcloud.com = 104.16.111.208
 my.rixcloud.com = 104.16.110.208
-docs.rixcloud.com = 104.16.109.208
