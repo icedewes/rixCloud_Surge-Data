@@ -1,11 +1,14 @@
 
 [Rule]
 # Default
+DOMAIN,gs.apple.com,Proxy,force-remote-dns
 DOMAIN-SUFFIX,apple.com,DIRECT
 DOMAIN-SUFFIX,icloud.com,DIRECT
 DOMAIN-SUFFIX,itunes.com,DIRECT
 DOMAIN-SUFFIX,mzstatic.com,DIRECT
-DOMAIN-SUFFIX,icloud-content.com,DIRECT
+DOMAIN-SUFFIX,icloud-content.com,DIRECT,force-remote-dns
+USER-AGENT,com.apple.appstored*,DIRECT,force-remote-dns
+USER-AGENT,*AssistantServices*,Proxy
 # JD
 DOMAIN,bdsp.x.jd.com,REJECT
 DOMAIN,im-x.jd.com,REJECT
@@ -862,6 +865,8 @@ DOMAIN-SUFFIX,shinychan.com,rixCloud
 DOMAIN-SUFFIX,shizhao.org,rixCloud
 DOMAIN-SUFFIX,shodanhq.com,rixCloud
 DOMAIN-SUFFIX,shopping.com,rixCloud
+DOMAIN-SUFFIX,slack-edge.com,Proxy
+DOMAIN-SUFFIX,slack.com,Proxy
 DOMAIN-SUFFIX,simpleproductivityblog.com,rixCloud
 DOMAIN-SUFFIX,sina.com,rixCloud
 DOMAIN-SUFFIX,sina.com.hk,rixCloud
@@ -1411,7 +1416,7 @@ DOMAIN-SUFFIX,agrantsem.com,REJECT
 DOMAIN,adsh.m.taobao.com,REJECT
 DOMAIN-SUFFIX,adjust.com,REJECT
 DOMAIN-SUFFIX,adm.72zx.com,REJECT
-DOMAIN-SUFFIX,adsmogo.org,REJECT
+DOMAIN-KEYWORD,adsmogo,REJECT
 DOMAIN-SUFFIX,api.biligame.com,REJECT
 DOMAIN,adash.m.taobao.com,REJECT
 DOMAIN-SUFFIX,ads.mobclix.com,REJECT
@@ -1578,7 +1583,7 @@ DOMAIN-SUFFIX,domob.org,REJECT
 DOMAIN-SUFFIX,dragonparking.com,REJECT
 DOMAIN,d3rt1990lpmkn.cloudfront.com,REJECT
 DOMAIN-SUFFIX,doubleclick.net,REJECT
-DOMAIN-SUFFIX,duomeng.cn,REJECT
+DOMAIN-KEYWORD,duomeng,REJECT
 DOMAIN-SUFFIX,duomeng.net,REJECT
 DOMAIN-SUFFIX,domobcdn.com,REJECT
 DOMAIN,dsp.fout.jp,REJECT
@@ -2032,6 +2037,9 @@ DOMAIN-KEYWORD,domob,REJECT,force-remote-dns
 DOMAIN-KEYWORD,dnserror,REJECT,force-remote-dns
 DOMAIN-KEYWORD,openx,REJECT,force-remote-dns
 DOMAIN-KEYWORD,telegram,rixCloud,force-remote-dns
+# USER-AGENT
+USER-AGENT,Pinterest*,Proxy
+USER-AGENT,Slack*,Proxy
 # IPCIDR
 IP-CIDR,1.201.0.0/24,rixCloud,no-resolve
 IP-CIDR,27.0.236.0/22,rixCloud,no-resolve
@@ -2111,7 +2119,7 @@ IP-CIDR,221.179.183.0/24,REJECT,no-resolve
 IP-CIDR,221.179.191.0/24,REJECT,no-resolve
 # Other
 GEOIP,CN,DIRECT
-FINAL,rixCloud
+FINAL,rixCloud,dns-failed
 
 [URL Rewrite]
 # Rewrite
