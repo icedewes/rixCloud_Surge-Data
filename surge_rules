@@ -1,14 +1,14 @@
 
 [Rule]
 # Default
-DOMAIN,gs.apple.com,Proxy,force-remote-dns
+DOMAIN,gs.apple.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,apple.com,DIRECT
 DOMAIN-SUFFIX,icloud.com,DIRECT
 DOMAIN-SUFFIX,itunes.com,DIRECT
 DOMAIN-SUFFIX,mzstatic.com,DIRECT
 DOMAIN-SUFFIX,icloud-content.com,DIRECT,force-remote-dns
 USER-AGENT,com.apple.appstored*,DIRECT,force-remote-dns
-USER-AGENT,*AssistantServices*,Proxy
+USER-AGENT,*AssistantServices*,rixCloud
 # JD
 DOMAIN,bdsp.x.jd.com,REJECT
 DOMAIN,im-x.jd.com,REJECT
@@ -865,8 +865,8 @@ DOMAIN-SUFFIX,shinychan.com,rixCloud
 DOMAIN-SUFFIX,shizhao.org,rixCloud
 DOMAIN-SUFFIX,shodanhq.com,rixCloud
 DOMAIN-SUFFIX,shopping.com,rixCloud
-DOMAIN-SUFFIX,slack-edge.com,Proxy
-DOMAIN-SUFFIX,slack.com,Proxy
+DOMAIN-SUFFIX,slack-edge.com,rixCloud
+DOMAIN-SUFFIX,slack.com,rixCloud
 DOMAIN-SUFFIX,simpleproductivityblog.com,rixCloud
 DOMAIN-SUFFIX,sina.com,rixCloud
 DOMAIN-SUFFIX,sina.com.hk,rixCloud
@@ -2038,8 +2038,8 @@ DOMAIN-KEYWORD,dnserror,REJECT,force-remote-dns
 DOMAIN-KEYWORD,openx,REJECT,force-remote-dns
 DOMAIN-KEYWORD,telegram,rixCloud,force-remote-dns
 # USER-AGENT
-USER-AGENT,Pinterest*,Proxy
-USER-AGENT,Slack*,Proxy
+USER-AGENT,Pinterest*,rixCloud
+USER-AGENT,Slack*,rixCloud
 # IPCIDR
 IP-CIDR,1.201.0.0/24,rixCloud,no-resolve
 IP-CIDR,27.0.236.0/22,rixCloud,no-resolve
