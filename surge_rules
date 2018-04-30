@@ -583,6 +583,7 @@ DOMAIN-SUFFIX,lockdown.com,rixCloud
 DOMAIN-SUFFIX,logiqx.com,rixCloud
 DOMAIN-SUFFIX,loiclemeur.com,rixCloud
 DOMAIN-SUFFIX,longtermly.net,rixCloud
+DOMAIN-SUFFIX,loli.net,rixCloud
 DOMAIN-SUFFIX,lookingglasstheatre.org,rixCloud
 DOMAIN-SUFFIX,lookpic.com,rixCloud
 DOMAIN-SUFFIX,loved.hk,rixCloud
@@ -1620,7 +1621,6 @@ DOMAIN,g1.163.com,REJECT
 DOMAIN-SUFFIX,gg.gao7.com,REJECT
 DOMAIN-SUFFIX,gtags.net,REJECT
 DOMAIN,g3.letv.com,REJECT
-DOMAIN-SUFFIX,google-analytics.com,REJECT
 DOMAIN-SUFFIX,googleadsserving.cn,REJECT
 DOMAIN-SUFFIX,googlesyndication.com,REJECT
 DOMAIN-SUFFIX,googleadservices.com,REJECT
