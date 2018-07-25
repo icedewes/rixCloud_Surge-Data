@@ -2049,6 +2049,8 @@ IP-CIDR,91.108.4.0/22,rixCloud,no-resolve
 IP-CIDR,91.108.56.0/22,rixCloud,no-resolve
 IP-CIDR,109.239.140.0/24,rixCloud,no-resolve
 IP-CIDR,117.18.232.0/21,rixCloud,no-resolve
+IP-CIDR,149.128.0.0/15,rixCloud
+IP-CIDR,161.117.0.0/16,rixCloud
 IP-CIDR,149.154.160.0/20,rixCloud,no-resolve
 IP-CIDR,194.68.28.0/22,rixCloud,no-resolve
 IP-CIDR,216.58.197.100/32,rixCloud,no-resolve
