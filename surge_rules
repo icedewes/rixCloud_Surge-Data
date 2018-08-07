@@ -2127,17 +2127,6 @@ FINAL,rixCloud,dns-failed
 # Rewrite
 ^http://www.google.cn http://www.google.com header
 ^http://youtube.com https://youtube.com 302
-^http://www.rixcloud.com https://www.rixcloud.com 302
-^https://rixcloud.com https://www.rixcloud.com 302
-^https://www.rixcloud.com https://www.rixcloud.com 302
-^http://www.rixcloud.org https://www.rixcloud.com 302
-^http://rixcloud.org https://www.rixcloud.com 302
-^https://www.rixcloud.org https://www.rixcloud.com 302
-^http://rixcloud.org https://www.rixcloud.com 302
-^http://www.rixcloud.cn https://www.rixcloud.com 302
-^http://rixcloud.cn https://www.rixcloud.com 302
-^https://www.rixcloud.cn https://www.rixcloud.com 302
-^http://rixcloud.cn https://www.rixcloud.com 302
 
 [Host]
 ip6-localhost = ::1
