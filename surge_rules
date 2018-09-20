@@ -2132,7 +2132,7 @@ ip6-loopback = ::1
 rixcloud.com = 104.16.58.5
 www.rixcloud.com = 104.16.58.5
 my.rixcloud.com = 104.16.110.208
-taobao.com - server:233.6.6.6
+taobao.com = server:233.6.6.6
 *.taobao.com = server:223.6.6.6
 tmall.com = server:233.6.6.6
 *.tmall.com = server:223.6.6.6
