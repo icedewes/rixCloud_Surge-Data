@@ -1,13 +1,13 @@
 
 [Rule]
 # Default
-DOMAIN,gs.apple.com,rixCloud,force-remote-dns
+DOMAIN,gs.apple.com,rixCloud
 DOMAIN-SUFFIX,apple.com,DIRECT
 DOMAIN-SUFFIX,icloud.com,DIRECT
 DOMAIN-SUFFIX,itunes.com,DIRECT
 DOMAIN-SUFFIX,mzstatic.com,DIRECT
-DOMAIN-SUFFIX,icloud-content.com,DIRECT,force-remote-dns
-USER-AGENT,com.apple.appstored*,DIRECT,force-remote-dns
+DOMAIN-SUFFIX,icloud-content.com,DIRECT
+USER-AGENT,com.apple.appstored*,DIRECT
 USER-AGENT,*AssistantServices*,rixCloud
 # JD
 DOMAIN,bdsp.x.jd.com,REJECT
