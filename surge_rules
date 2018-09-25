@@ -9,6 +9,11 @@ DOMAIN-SUFFIX,mzstatic.com,DIRECT
 DOMAIN-SUFFIX,icloud-content.com,DIRECT
 USER-AGENT,com.apple.appstored*,DIRECT
 USER-AGENT,*AssistantServices*,rixCloud
+DOMAIN-SUFFIX,news-events.apple.com,rixCloud
+DOMAIN-SUFFIX,news-edge.apple.com,rixCloud
+DOMAIN-SUFFIX,apple.comscoreresearch.com,rixCloud
+DOMAIN-SUFFIX,play.itunes.apple.com,rixCloud
+DOMAIN-SUFFIX,play-cdn.itunes-apple.com.akadns.net,rixCloud
 # JD
 DOMAIN,bdsp.x.jd.com,REJECT
 DOMAIN,im-x.jd.com,REJECT
