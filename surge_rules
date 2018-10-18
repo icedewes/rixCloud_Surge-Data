@@ -2016,6 +2016,9 @@ DOMAIN-SUFFIX,zdbb.net,REJECT
 DOMAIN-SUFFIX,zhaochina.com,REJECT
 DOMAIN-SUFFIX,zzrcz.com,REJECT
 DOMAIN-SUFFIX,zyiis.net,REJECT
+DOMAIN-SUFFIX,rayjump.com,REJECT-TINYGIF
+DOMAIN-SUFFIX,cloudmobi.net,REJECT-TINYGIF
+DOMAIN-SUFFIX,appnext.com,REJECT-TINYGIF
 # KEYWORD
 DOMAIN-KEYWORD,aka,rixCloud,force-remote-dns
 DOMAIN-KEYWORD,amazon,rixCloud,force-remote-dns
