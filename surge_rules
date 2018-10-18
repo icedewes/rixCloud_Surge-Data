@@ -15,7 +15,7 @@ DOMAIN-SUFFIX,apple.comscoreresearch.com,rixCloud
 DOMAIN-SUFFIX,play.itunes.apple.com,rixCloud
 DOMAIN-SUFFIX,play-cdn.itunes-apple.com.akadns.net,rixCloud
 #JOOX
-USER-AGENT,WeMusic*,Proxy
+USER-AGENT,WeMusic*,rixCloud
 # JD
 DOMAIN,bdsp.x.jd.com,REJECT
 DOMAIN,im-x.jd.com,REJECT
